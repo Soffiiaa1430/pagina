@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFF url("../images/descarga.jpg");
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 25px;
+}
+
+main{
+    box-shadow: 0 0 10px #bd8dc4;
+    border-radius: 50px;
+    width: 1100px;
+    margin: 50px auto;
+    background-color: #FFF;
+    padding: 40px;
+    
+}
+
+header{
+    text-align: center;
+    
+}
+
+header img{
+    float: left;
+    margin-left: 25px;
+}
+
+header h1{
+    font-size: 35px;
+    padding: 10px 0;
+    text-align: center;
+    float: left;
+    margin:45px 0 0 100px;
+}
+
+nav{
+    margin: 20px;
+}
+
+ul li{
+    display: inline;
+    padding: 0 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: #929090d5;
+    color: #FFF;
+    padding: 6px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #292929;
+}
+
+ul li a:hover{
+    background-color: #dd82d5;
+}
+
+section{
+    background-size: contain;
+    border: 4px double #000000;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    color:#000;
+    padding: 10px 0;
+}
+
+.ftinicio{
+    float:right;
+}
+
+.ftbiografia{
+    float: left;
+}
+
+.ftcarrera{
+    float: left;
+}
+
+b{
+    color: #1b35c8;
+}
+
+article{
+    text-align: center;
+}
+
+article img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+aside{
+    text-align: center;
+}
+
+aside a{
+    color:#FFF;
+    background: #919090;
+    border-radius: 10px;
+    padding:5px 10px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+aside a:hover{
+    background:#FFF;
+    color: #661bc8;
+}
+
+footer p{
+    text-align: center;
+    width: 100%;
+}
+
+#parrcarrera{
+    border: 1px solid #D2B4DE;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #D2B4DE;
+    color: #FFF;
+    float: right;
+    width: 55%;
+    margin: -450px 0 200px 0;
+}
+
+#parrMarco{
+    border: 1px solid #D2B4DE;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #D2B4DE;
+    color: #FFF;
+    float: right;
+    width: 55%;
+    margin: 100px 20px 0 0;
+}
+
+#textFooter{
+    font-size: 10px;
+}
+
+.colorFuente{
+    color: rgb(0, 0, 0);
+}
+
+.clear{
+    clear: both;
+}
+.foto{
+    width: 250px;
+    border-radius: 10px;
+}
